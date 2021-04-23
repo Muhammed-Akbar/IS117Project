@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.jumbotron{
+    background: url("../images/melissa-di-rocco-caPcNn41FnY-unsplash.jpg") no-repeat center center fixed;
+    height:100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+
+}
+.jumbotron h1 p{
+    margin: 30px 0;
+    font-size:200px;
+    line-height:1.5;
+    color: gray;
+
+}
+
+@media (min-width: 768px) {
+    .jumbotron h1 p{
+        font-size: 4em;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .jumbotron h1 p{
+        font-size: 6em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .jumbotron h1 p{
+        font-size: 8em;
+    }
+}
+
+.row{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+.card{
+    margin-bottom: 10px;
+}
+.cart {
+    margin: 0 auto;
+    float:none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card{
+    margin: 0 auto;
+    float:none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+article h1{
+    text-align: center;
+}
+article p{
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+article img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+form{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*.intro{
+    padding-top:160px;
+
+}*/
+/*.intro img{
+    width:220px;
+}*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
